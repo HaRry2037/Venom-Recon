@@ -21,9 +21,9 @@ os.system('pip3 install builtwith')
 os.system('pip3 install sslscan')
 os.system('pip3 install parsel')
 os.system('pip3 install httplib2')
-os.system('curl https://xael.org/pages/python-nmap-0.6.1.tar.gz')
+os.system('curl https://xael.org/pages/python-nmap-0.6.1.tar.gz --output python-nmap-0.6.1.tar.gz')
 os.system('tar xvzf python-nmap-0.6.1.tar.gz')
-os.system('python3 python-nmap-0.6.1/setup.py install')
+os.system('cd python-nmap-0.6.1 && python3 setup.py install')
 os.system('clear')
 from colorama import Fore
 y = Fore.YELLOW
